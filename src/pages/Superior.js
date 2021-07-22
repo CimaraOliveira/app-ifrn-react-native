@@ -5,12 +5,16 @@ import Color from '../styles/Color';
 import { MainButton } from '../components/MainButton';
 
 
-export function Pagina1({ navigation} ){
+export function Superior( ){
     return(
         <View style={GlobalStyles.screenContainer}>
-            <MainButton title="Medio" onPress={() => navigation.navigate('Medio')} />
-            <MainButton title="Superior" onPress={() => navigation.navigate('Superior')} />
-          
+            <Text style={GlobalStyles.title}>
+                Cursos Ofertados
+            </Text>
+
+            
+
+       
            
          </View>
     )

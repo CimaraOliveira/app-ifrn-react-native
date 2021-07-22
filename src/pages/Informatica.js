@@ -2,7 +2,7 @@ import React from 'react'
 import {View,Text,StyleSheet} from 'react-native'
 import GlobalStyles from '../styles/GlobalStyles';
 
-export function Pagina2(){
+export function Informatica(){
     return(
         <View style={GlobalStyles.screenContainer}>
           

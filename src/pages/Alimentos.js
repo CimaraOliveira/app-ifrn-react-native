@@ -5,12 +5,11 @@ import GlobalStyles from '../styles/GlobalStyles';
 export function Alimentos(){
     return(
         <View style={GlobalStyles.screenContainer}>
-             <View>
-                <Text>
+             <Text style={styles.textTitle}>
                 Sobre o curso:
-                </Text>
-             </View>
-            <View style={styles.box}>
+              </Text>
+             
+             <View style={styles.box}>
             <View style={styles.rodape}>        
                <Text style={styles.textorodape} >
                O Curso Técnico Integrado em Alimentos forma profissionais que atuam no processamento e
@@ -20,7 +19,7 @@ export function Alimentos(){
         </View>
 
             <View>
-                <Text>
+                <Text style={styles.textTitle}>
                 Carga Horária do curso:
                 </Text>
              </View>
@@ -34,7 +33,7 @@ export function Alimentos(){
         </View>
 
         <View>
-                <Text>
+                <Text style={styles.textTitle}>
                 Duração do curso:
                 </Text>
              </View>
@@ -45,21 +44,7 @@ export function Alimentos(){
                4 anos          
             </Text> 
         </View>        
-        </View>
-
-        <View>
-                <Text>
-                Campus autorizados a ofertar o curso:
-                </Text>
-             </View>
-
-        <View style={styles.box1}>
-            <View style={styles.rodape}>        
-               <Text style={styles.texto} >
-               Currais Novos, Pau dos Ferros         
-            </Text> 
-        </View>        
-        </View>
+        </View>     
 
          </View>
     )
@@ -96,7 +81,7 @@ const styles = StyleSheet.create({
         textAlign:'center',
         alignItems:'center',
         textAlignVertical: "center",
-       left: 30
+        left: 110
       }, 
       
       box:{
@@ -105,7 +90,7 @@ const styles = StyleSheet.create({
         top:7,
         left:1,
         margin:10,
-        marginTop:2,
+        marginTop:0,
         backgroundColor:'#ADD8E6',
         flexDirection: 'row',
         borderRadius:15,
@@ -116,9 +101,15 @@ const styles = StyleSheet.create({
         top:7,
         left:1,
         margin:10,
-        marginTop:8,
+        marginTop:2,
         backgroundColor:'#ADD8E6',
         flexDirection: 'row',
         borderRadius:15,
-      }  
+      },
+      textTitle:{
+        padding:7, 
+        fontWeight:'bold',
+        textAlign:'center',
+        fontSize:20
+      }
   });

@@ -8,9 +8,8 @@ import { MainButton } from '../components/MainButton';
 export function Pagina1({ navigation} ){
     return(
         <View style={GlobalStyles.screenContainer}>
-            <MainButton title="Medio" onPress={() => navigation.navigate('Medio')} />
-            <MainButton title="Superior" onPress={() => navigation.navigate('Superior')} />
-          
+            <MainButton title="Técnicos" onPress={() => navigation.navigate('Medio')} />
+            <MainButton title="Superior" onPress={() => navigation.navigate('Superior')} />       
            
          </View>
     )

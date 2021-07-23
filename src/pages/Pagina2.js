@@ -9,10 +9,10 @@ export function Pagina2(){
             <View style={styles.box}>
             <View style={styles.rodape}>        
                <Text style={styles.textorodape} >
-             BR 405, KM 154, S/N, Bairro Chico Cajá, 
-             Pau dos Ferros/RN, CEP 59900-000, CNPJ: 10.877.412/0006-72
+             Pau  dos Ferros, BR 405, KM 154, S/N, Bairro Chico Cajá, 
+             CEP 59900-000, CNPJ: 10.877.412/0006-72
              Coordenação de Comunicação Social e Eventos (COCSEV) Horário de atendimento: 9h às 12h e 14h às 18h (segunda a sexta-feira)
-            E-mail: comunicacao.pf@ifrn.edu.br
+             E-mail: comunicacao.pf@ifrn.edu.br
               Telefone: (84) 4005 4109
             </Text> 
         </View>
@@ -40,7 +40,8 @@ const styles = StyleSheet.create({
         marginTop:10,        
         color:'black',
         textAlign:'center',
-        alignSelf: 'flex-end'
+        
+       
       },    
       box:{
         width:300,

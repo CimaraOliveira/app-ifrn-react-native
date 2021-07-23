@@ -5,19 +5,47 @@ import GlobalStyles from '../styles/GlobalStyles';
 export function Informatica(){
     return(
         <View style={GlobalStyles.screenContainer}>
-          
-            <View style={styles.box}>
+             <Text style={styles.textTitle}>
+                Sobre o curso:
+              </Text>
+             
+             <View style={styles.box}>
             <View style={styles.rodape}>        
                <Text style={styles.textorodape} >
-             BR 405, KM 154, S/N, Bairro Chico Cajá, 
-             Pau dos Ferros/RN, CEP 59900-000, CNPJ: 10.877.412/0006-72
-             Coordenação de Comunicação Social e Eventos (COCSEV) Horário de atendimento: 9h às 12h e 14h às 18h (segunda a sexta-feira)
-            E-mail: comunicacao.pf@ifrn.edu.br
-              Telefone: (84) 4005 4109
+               O Curso Técnico Integrado em Informática forma profissionais que desenvolvem programas de computador,
+                seguindo as especificações e paradigmas da lógica de programação e das linguagens de programação;          
             </Text> 
+        </View>        
         </View>
+
+            <View>
+                <Text style={styles.textTitle}>
+                Carga Horária do curso:
+                </Text>
+             </View>
+
+        <View style={styles.box1}>
+            <View style={styles.rodape}>        
+               <Text style={styles.texto} >
+               4.100h             
+            </Text> 
+        </View>        
         </View>
-           
+
+        <View>
+                <Text style={styles.textTitle}>
+                Duração do curso:
+                </Text>
+             </View>
+
+        <View style={styles.box1}>
+            <View style={styles.rodape}>        
+               <Text style={styles.texto} >
+               4 anos          
+            </Text> 
+        </View>        
+        </View>     
+
          </View>
     )
 }
@@ -34,23 +62,54 @@ const styles = StyleSheet.create({
      
     },
     textorodape:{
-        top:15,
+        top:10,
         fontSize:16,
         margin:1,
         marginTop:10,        
         color:'black',
         textAlign:'center',
-        alignSelf: 'flex-end'
+        alignItems:'center',
+        textAlignVertical: "center",
+      
       },    
+      texto:{
+        top:10,
+        fontSize:16,
+        margin:1,
+        marginTop:10,        
+        color:'black',
+        textAlign:'center',
+        alignItems:'center',
+        textAlignVertical: "center",
+        left: 110
+      }, 
+      
       box:{
         width:300,
-        height:200,
-        top:25,
+        height:150,
+        top:7,
         left:1,
         margin:10,
-        marginTop:15,
+        marginTop:0,
         backgroundColor:'#ADD8E6',
         flexDirection: 'row',
         borderRadius:15,
-      }  
+      }  ,
+      box1:{
+        width:300,
+        height:50,
+        top:7,
+        left:1,
+        margin:10,
+        marginTop:2,
+        backgroundColor:'#ADD8E6',
+        flexDirection: 'row',
+        borderRadius:15,
+      },
+      textTitle:{
+        padding:7, 
+        fontWeight:'bold',
+        textAlign:'center',
+        fontSize:20
+      }
   });

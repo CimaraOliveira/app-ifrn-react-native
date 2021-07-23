@@ -11,9 +11,7 @@ export function Medio({ navigation} ){
            
             <MainButton title="Alimentos" onPress={() => navigation.navigate('Alimentos')} />
             <MainButton title="Apicultura" onPress={() => navigation.navigate('Apicultura')} />
-            <MainButton title="Informatica" onPress={() => navigation.navigate('Informatica')} />
-
-            
+            <MainButton title="Informatica" onPress={() => navigation.navigate('Informatica')} />            
 
        
            

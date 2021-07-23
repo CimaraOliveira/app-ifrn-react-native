@@ -5,14 +5,13 @@ import Color from '../styles/Color';
 import { MainButton } from '../components/MainButton';
 
 
-export function Superior( ){
+export function Superior({ navigation} ){
     return(
         <View style={GlobalStyles.screenContainer}>
-            <Text style={GlobalStyles.title}>
-                Cursos Ofertados
-            </Text>
-
-            
+           
+            <MainButton title="Ads" onPress={() => navigation.navigate('Ads')} />
+            <MainButton title="Quimica" onPress={() => navigation.navigate('Quimica')} />
+                       
 
        
            

@@ -1,7 +1,9 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
 import { StyleSheet} from 'react-native';
-import { Routes } from './src/routes'; 
+import { Routes } from './src/router2'; 
+//import { Routes } from './src/routes'; 
+
 import { NavigationContainer } from '@react-navigation/native';
 import { SafeAreaView } from 'react-native';
 import GlobalStyles from './src/styles/GlobalStyles';
